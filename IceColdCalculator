@@ -1,0 +1,14 @@
+function calculator(op, fv, sv){
+  if(op == "multiplication"){
+    console.log(fv * sv)
+  }else if(op == "addition"){
+    console.log(fv + sv)
+  }else if(op == "subtraction"){
+    console.log(fv - sv)
+  }else if(op == "divide"){
+    console.log(fv / sv)
+  }
+}
+
+calculator("addition", 5, 2);
+
